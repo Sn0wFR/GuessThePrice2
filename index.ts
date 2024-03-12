@@ -11,4 +11,4 @@ client.once('ready', () => {
     console.log('Ready!');
 });
 
-client.login(token).then(r => {});
+client.login(token);
