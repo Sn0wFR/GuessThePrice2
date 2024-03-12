@@ -1,5 +1,5 @@
 import {config} from "dotenv";
-import {Client, /*Collection,*/ Intents, /*Message, MessageEmbed*/} from 'discord.js';
+import {Client, Intents} from 'discord.js';
 
 config();
 
