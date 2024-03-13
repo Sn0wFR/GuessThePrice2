@@ -9,3 +9,5 @@ const token = process.env.TOKEN;
 client.once('ready', () => {
     console.log('Ready!');
 });
+
+client.login(token);
